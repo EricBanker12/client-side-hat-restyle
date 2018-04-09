@@ -5,7 +5,7 @@ module.exports = function clientSideHatRestyle(dispatch) {
         contractId = false
 
     // get character id
-    dispatch.hook('S_LOGIN', 9, event => {
+    dispatch.hook('S_LOGIN', 10, event => {
         gameId = event.gameId
     })
 
